@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+button{
+    font-family: 'Fasthand', cursive;
+}
+.container{
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+}
+.logo{
+    font-size: 5em;
+    text-shadow: -5px -5px 0 purple,
+    5px -5px 0 purple,
+    -5px 5px 0 purple,
+    5px 5px 0 purple;
+}
+.button{
+    background-color: blue;
+    color: brown;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 25px;
+    font-weight: 800;
+}
+input{
+    height: 40px;
+    width: 200px;
+    background-color: plum;
+}
+#input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#submit{
+    margin-right: 40px;
+}
+h1{
+    font-size: 40px;
+}
+#message{
+    display: none;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+reset{
+    height: 10px;
+    width: 30px;
+}
